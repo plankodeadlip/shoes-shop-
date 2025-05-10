@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307909678798",
+    "project_id": "mophoneapp11",
+    "storage_bucket": "mophoneapp11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307909678798:android:eefba251d6219c0c2a629f",
+        "android_client_info": {
+          "package_name": "com.example.mophoneapp11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307909678798-30b9mnlhqgil2ms67tpbr959nh36u8pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeYGLW4qVIiauDftWt8SbmOt_Z8N0bPnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307909678798-30b9mnlhqgil2ms67tpbr959nh36u8pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

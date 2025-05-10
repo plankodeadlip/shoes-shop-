@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView hiển thị sản phẩm trong đơn hàng -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/checkoutRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Tổng tiền -->
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng cộng: $0.0"
+        android:textSize="18sp" />
+
+    <!-- Thời gian hóa đơn -->
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thời gian hóa đơn: "
+        android:textSize="16sp" />
+
+</LinearLayout>
+
